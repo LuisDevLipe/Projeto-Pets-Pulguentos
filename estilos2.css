@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+    padding:5px;;
+    margin:10px;
+    background-color:#ffbf69;
+    border-radius:15px;
+    
+
+}
+.cabecalho_logo_container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    gap:450px;
+    margin:0;
+    padding:0;
+}
+
+.cabecalho-logo{
+    Font-size:2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:600;
+    color:#f1f1f1;
+    margin-left:20px;
+}
+
+.cabecalho_logo2{
+    float:right;
+    width:150px;
+    margin-right:50%;
+}
+
+.cabecalho-menu{
+    display:flex;
+    position:absolute;
+    right:10px;
+    gap:40px;
+    padding:12px 50px;
+    background-color:#ff9f1c;
+    border-radius:0 15px 15px 0;
+
+}
+.cabecalho-menu-item{
+    font-size:1.2em;
+    font-family:arial;
+    font-weight:400;
+    color:#f1f1f1;
+    
+}
+.cabecalho-logo > a{
+    color:white;
+}
+.cabecalho-menu-item:hover{
+    color:#d00000;
+    transition:0.4s;
+}
+
+
+/* conteúdo do body começa aqui */
+
+
+
+
+
+
+
+
+
+
+/* rodapé footer começa aqui */
+
+.contato_info{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    line-height:2.5em;
+}
+
+ .up_footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:1px;      /*alterado*/
+    padding:20px;
+    background-color:#ff9f1c;
+
+}
+
+.logos > .logo > img{
+    width:25px;
+}
+.patrocinadores{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer_statue{
+   width:120px;
+   height:120px;
+} 
+
+footer{
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  */
+    
+    text-align:center;
+    padding:50px;
+    background-color:#ffbf69;
+    margin-top:50px; 
+    color:white;
+}
+.footer_link{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0 300px;
+    font-size:0.7em;
+}
